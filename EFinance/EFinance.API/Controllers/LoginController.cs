@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace EFinance.API.Controllers
 {
@@ -9,6 +8,7 @@ namespace EFinance.API.Controllers
     [Route("api/authenticate")]
     public class LoginController : ControllerBase
     {
+        [HttpPost]
         public IActionResult Login()
         {
             return Ok();

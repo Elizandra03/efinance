@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFinance.Domain.Api", "EFinance.API\EFinance.Domain.Api.csproj", "{A451A0D4-E3AA-4952-8647-46F6AD000079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFinance.Api", "EFinance.API\EFinance.Api.csproj", "{A451A0D4-E3AA-4952-8647-46F6AD000079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFinance.Domain", "EFinance.Domain\EFinance.Domain.csproj", "{03291207-ED73-4FBE-A766-9B1502363652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFinance.Domain", "EFinance.Domain\EFinance.Domain.csproj", "{03291207-ED73-4FBE-A766-9B1502363652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFinance.Domain.Infra", "EFinance.Infra\EFinance.Domain.Infra.csproj", "{07F14EBB-A33C-43F6-BA51-A4CA45E6A711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFinance.Infra", "EFinance.Infra\EFinance.Infra.csproj", "{07F14EBB-A33C-43F6-BA51-A4CA45E6A711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
